@@ -1,0 +1,124 @@
+.CVContainer {
+    max-width: 800px;
+    max-height: 1300px;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #FCB900;
+    font-family: Arial, sans-serif;
+    border: 2px solid #FCB900;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #FCB900;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 20px;
+    
+  }
+  
+  .CVHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #333;
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+  
+  .profileImage {
+    width: 100px;
+    border: solid 8px #333 ;
+  
+
+    border-radius: 50%;
+    margin-right: 20px;
+  
+  }
+  
+  .personalInfo {
+ 
+  }
+  
+  .infoRow {
+  
+
+  text-align: left;
+    padding: 0 30px; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    font-size: 12px;
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(90deg, #ff8800 0%, #ad0303 100%);
+  }
+  
+  .leftColumn {
+    flex: 1; 
+    font-size: 12px;
+  }
+
+  .rightColumn {
+    width: 40%; 
+  }
+
+
+  .CVSection {
+    margin-top: -20px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .CVSection a{
+    font-size: 13px;
+    color: blue;
+  }
+  .CVSection a:hover{
+    color: red;
+  }
+  .CVSection h2 {
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #e0c8ac 0%, #ffb172 100%);
+    height: 30px;
+    width: 90%;
+  
+  }
+  
+  .CVSection h3 {
+    margin-top: 0;
+    color: #555;
+  }
+  
+  .CVSection p {
+    color: #444;
+    font-size: 16px;
+  }
+  .CVSection .objectCareer {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .CVSection ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .CVSection li {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .CVSection ul li::before {
+    content: "•";
+    margin-right: 5px;
+    color: #777;
+  }
