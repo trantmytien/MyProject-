@@ -71,7 +71,7 @@ const CV = () => {
             <li key={index}>{item}</li>
           ))}
         </ul>
-        <p>Link sản phẩm: <a href='https://github.com/trantmytien/Personal-projects.git'>https://github.com/trantmytien/Personal-projects.git</a></p>
+        <p>Link sản phẩm: <a href='https://github.com/trantmytien/MyProject-'>https://github.com/trantmytien/Personal-projects.git</a></p>
       </div>
     )
   }
